@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,400italic,500,500italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,400italic,500,500italic,700,700italic');
+
 .mdl-layout__header-row {
   /* Data Cards Playbook / Concrete / 100 */
   background: #FFFFFF;
@@ -17,7 +20,7 @@
   text-decoration: none;
 
   /* Data Cards Playbook/Subtitle/2 */
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -30,9 +33,8 @@
 }
 
 .mdl-navigation .mdl-navigation__link {
-  font-family: Manrope;
+  font-family: Rubik, sans-serif;
   font-style: normal;
-  font-weight: 600;
   display: flex;
   align-items: center;
   text-align: center;

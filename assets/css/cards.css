@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,400italic,500,500italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,400italic,500,500italic,700,700italic');
+
 .card-image {
   height: 200px;
   text-align: center;
@@ -16,7 +19,7 @@
 .card-subtitle {
   /* Data Cards Playbook / Overline */
 
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -40,7 +43,7 @@
 
 .card-title, .card-title a {
   /* Data Cards Playbook/Heading/1 */
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -63,7 +66,7 @@
 
 .card-desc {
   /* Data Cards Playbook/Body/3 */
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -98,7 +101,7 @@
   margin-right: 5px;
 
   /* Data Cards Playbook/Button Label */
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -147,7 +150,7 @@
 
 .card-tags .tag {
   /* Data Cards Playbook / Tag */
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

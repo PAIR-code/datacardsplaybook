@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,400italic,500,500italic,700,700italic');
-@import url('https://fonts.googleapis.com/css?family=Manrope:400,400italic,500,500italic,700,700italic');
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,400italic,500,500italic,700,700italic');
 
 body {
@@ -9,7 +8,7 @@ body {
 
 body, p, a, p a, ul, li {
   /* Data Cards Playbook/Body/3 */
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -31,7 +30,7 @@ h1 {
   margin-bottom: 12px;
 
   /* Data Cards Playbook/Subtitle/1 */
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -51,7 +50,7 @@ h1 {
 
 h2 {
   /* Data Cards Playbook/Subtitle/2 */
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -66,7 +65,7 @@ h2 {
 h3 {
   margin-bottom: 8px;
   /* Data Cards Playbook/Subtitle/2 */
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -78,10 +77,14 @@ h3 {
   color: #1A73E8;
 }
 
+strong {
+  font-family: Inter, sans-serif;
+}
+
 proposal {
   /* Data Cards Playbook/Heading/1 */
 
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -100,7 +103,7 @@ b1 {
   display: block;
 
   /* Data Cards Playbook/Body/1 */
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -117,7 +120,7 @@ s2 {
   padding-bottom: 36px;
 
   /* Data Cards Playbook/Subtitle/2 */
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -130,7 +133,7 @@ s2 {
 
 small, h2 small {
   /* Data Cards Playbook / Overline */
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -185,7 +188,7 @@ ul .no-line {
 
 .banner-text {
   /* Data Cards Playbook/Subtitle/1 */
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -197,7 +200,7 @@ ul .no-line {
 }
 
 .mdl-button {
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   text-transform: none;
 
   align-items: center;
@@ -288,7 +291,7 @@ ul .no-line {
 
 .breadcrumbs, .breadcrumbs a {
   /* Data Cards Playbook / Overline */
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
