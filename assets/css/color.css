@@ -1,0 +1,29 @@
+li {
+  /* Data Cards Playbook / Overall / Dark */
+  color: #0748A2;
+}
+
+bright {
+  /* Data Cards Playbook / Overall / Bright */
+  color: #1A73E8;
+}
+
+dark {
+  /* Data Cards Playbook / Overall / Dark */
+  color: #0748A2;
+}
+
+tornado {
+  /* Data Cards Playbook / Tornado / 500 */
+  color: #152D2E;
+}
+
+ask, .ask, .card-title.ask, .card-link.ask a {
+  /* Data Cards Playbook / Ask / Bright */
+  color: #F439A0;
+}
+
+inspect, .inspect, .card-title.inspect, .card-link.inspect a {
+  /* Data Cards Playbook / Inspect / Bright */
+  color: #FF7B19;
+}

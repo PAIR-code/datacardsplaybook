@@ -1,0 +1,210 @@
+.card-image {
+  height: 200px;
+  text-align: center;
+  margin-bottom: 24px;
+
+  /* Data Cards Playbook / Concrete / 100 */
+  background: #FFFFFF;
+
+  /* Data Cards Playbook / Tornado / 300 */
+  border: 1px dashed #7C9192;
+  box-sizing: border-box;
+  box-shadow: 4px 8px 0px #CDDCDC;
+  border-radius: 8px;
+}
+
+.card-subtitle {
+  /* Data Cards Playbook / Overline */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+
+  /* Data Cards Playbook / Tornado / 400 */
+
+  color: #3C4F50;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.card-title, .card-title a {
+  /* Data Cards Playbook/Heading/1 */
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.1px;
+  text-decoration: none;
+
+  /* Data Cards Playbook / Overall / Bright */
+  color: #1A73E8;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.card-desc {
+  /* Data Cards Playbook/Body/3 */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.2px;
+
+  /* Data Cards Playbook / Tornado / 500 */
+  color: #152D2E;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.card-desc.medium {
+  min-height: 100px;
+}
+
+.card-desc.tall {
+  min-height: 200px;
+}
+
+.card-link {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  margin-right: 5px;
+
+  /* Data Cards Playbook/Button Label */
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+
+  /* Data Cards Playbook / Overall / Bright */
+  color: #1A73E8;
+  border-radius: 8px;
+}
+
+.card-link a:link, .link-out a:link {
+  text-decoration: none;
+  /* Data Cards Playbook / Overall / Bright */
+  color: #1A73E8;
+}
+
+.card-link a:visited, .card-link a:active, .link-out a:visited, .link-out a:active {
+  /* Data Cards Playbook / Overall / Bright */
+  color: #1A73E8;
+}
+
+.arrow {
+  height: 10px;
+  margin-left: 5px;
+}
+
+.arrow.external {
+  height: 20px;
+}
+
+.arrow.download {
+  height: 15px;
+}
+
+.arrow.nav {
+  height: 18px;
+}
+
+.card-tags {
+  margin: 10px 0;
+}
+
+.card-tags .tag {
+  /* Data Cards Playbook / Tag */
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+
+  /* Data Cards Playbook / Concrete / 400 */
+  color: #3C4043;
+}
+
+.activity-card {
+  /* Data Cards Playbook / Concrete / 100 */
+  background: #FFFFFF;
+
+  /* Data Cards Playbook / Tornado / 200 */
+  border: 1px dashed #CDDCDC;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.summary-card {
+  /* Data Cards Playbook / Tornado / 100 */
+  background: #F1F7F7;
+
+  /* Data Cards Playbook / Tornado / 300 */
+  border: 1px dashed #7C9192;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.resource-card {
+  width: 100%;
+  display: block;
+
+  /* Data Cards Playbook / Concrete / 100 */
+  background: #FFFFFF;
+
+  /* Data Cards Playbook / Tornado / 300 */
+  border-bottom: 1px dashed #7C9192;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 840px) {
+  .card-desc.tall {
+    min-height: 160px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card-desc.medium, .card-desc.tall {
+    min-height: 0;
+  }
+}

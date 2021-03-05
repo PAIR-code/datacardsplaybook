@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,400italic,500,500italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Manrope:400,400italic,500,500italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,400italic,500,500italic,700,700italic');
+
+body {
+  /* Data Cards Playbook / Concrete / 100 */
+  background: #FFFFFF;
+}
+
+body, p, a, p a, ul, li {
+  /* Data Cards Playbook/Body/3 */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.2px;
+
+  /* Data Cards Playbook / Concrete / 500 */
+  color: #090B0C;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+  margin-bottom: 12px;
+
+  /* Data Cards Playbook/Subtitle/1 */
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  /* or 133% */
+  letter-spacing: 0.2px;
+
+  /* Data Cards Playbook / Overall / Dark */
+  color: #0748A2;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+h2 {
+  /* Data Cards Playbook/Subtitle/2 */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 129% */
+  letter-spacing: 0.1px;
+
+  /* Data Cards Playbook / Overall / Bright */
+  color: #1A73E8;
+}
+
+h3 {
+  margin-bottom: 8px;
+  /* Data Cards Playbook/Subtitle/2 */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 129% */
+  letter-spacing: 0.1px;
+
+  /* Data Cards Playbook / Overall / Bright */
+  color: #1A73E8;
+}
+
+proposal {
+  /* Data Cards Playbook/Heading/1 */
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.1px;
+
+  /* Data Cards Playbook / Tornado / 500 */
+
+  color: #152D2E;
+}
+
+b1 {
+  margin-bottom: 20px;
+  display: block;
+
+  /* Data Cards Playbook/Body/1 */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  letter-spacing: 0.1px;
+
+  /* Data Cards Playbook / Tornado / 500 */
+  color: #152D2E;
+}
+
+s2 {
+  padding-bottom: 36px;
+
+  /* Data Cards Playbook/Subtitle/2 */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+
+  /* Data Cards Playbook / Tornado / 500 */
+  color: #152D2E;
+}
+
+small, h2 small {
+  /* Data Cards Playbook / Overline */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.8px;
+  margin-bottom: 5px;
+  display: block;
+  text-transform: uppercase;
+
+  /* Data Cards Playbook / Tornado / 300 */
+  color: #7C9192;
+}
+
+ul {
+  padding-bottom: 30px;
+  /* Data Cards Playbook / Tornado / 300 */
+  border-bottom: 1px dashed #7C9192;
+}
+
+ul .no-line {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 300px;
+  position: relative;
+}
+
+.banner::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background-image: url(/datacardsplaybook/assets/images/banner.png);
+  background-size: auto 300px;
+  background-repeat: repeat-x;
+  z-index: -1;
+  opacity: .6;
+}
+
+.short-banner {
+  height: 225px;
+}
+
+.banner-text {
+  /* Data Cards Playbook/Subtitle/1 */
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+
+  /* Data Cards Playbook / Tornado / 500 */
+  color: #152D2E;
+}
+
+.mdl-button {
+  font-family: Rubik;
+  text-transform: none;
+
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  letter-spacing: 0.25px;
+  margin-top: 30px;
+
+  /* Data Cards Playbook / Concrete / 100 */
+  color: #FFFFFF;
+
+  /* Data Cards Playbook / Overall / Bright */
+  background: #1A73E8;
+}
+
+.mdl-button:hover {
+  /* Data Cards Playbook / Concrete / 100 */
+  color: #FFFFFF;
+
+  /* Data Cards Playbook / Overall / Dark */
+  background: #0748A2;
+}
+
+.block {
+  width: 100%;
+}
+
+.container, .footer-container {
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+.footer-container {
+  padding: 20px 0 35px;
+  width: 100%;
+}
+
+.footer-container a {
+  text-decoration: none;
+}
+
+.footer-container img {
+  width: 100px;
+  /* margin-top: -8px; */
+}
+
+.footer-icons a {
+  margin: 15px;
+}
+
+.footer-icons img {
+  width: 24px;
+}
+
+.footer-container p, .footer-container a {
+  font-size: 14px;
+  /* Data Cards Playbook / Tornado / 400 */
+  color: #3C4F50;
+}
+
+.footer-container a:hover {
+  /* Data Cards Playbook / Concrete / 500 */
+  color: #090B0C;
+}
+
+.footer, .footer p, .footer a {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.footer a:hover, .tutorial-footer a:hover {
+  /* Data Cards Playbook / Tornado / 400 */
+  color: #3C4F50;
+}
+
+.tutorial-footer, .tutorial-footer a {
+  font-size: 14px;
+  line-height: 20px;
+  border-top: 1px solid #888;
+  padding: 10px 0;
+  margin: 25px 0px;
+}
+
+.breadcrumbs, .breadcrumbs a {
+  /* Data Cards Playbook / Overline */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  text-decoration: none;
+
+  /* Data Cards Playbook / Concrete / 400 */
+  color: #3C4043;
+}
+
+.breadcrumbs a:hover {
+  /* Data Cards Playbook / Concrete / 500 */
+  color: #090B0C;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container, .footer-container {
+    margin: 0 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-text {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}

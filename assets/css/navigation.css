@@ -1,0 +1,61 @@
+.mdl-layout__header-row {
+  /* Data Cards Playbook / Concrete / 100 */
+  background: #FFFFFF;
+}
+
+.mdl-layout__container .mdl-layout__drawer-button {
+  /* Data Cards Playbook / Concrete / 100 */
+  background: #FFFFFF;
+}
+
+.material-icons {
+  /* Data Cards Playbook / Tornado / 500 */
+  color: #152D2E;
+}
+
+.mdl-layout__title a {
+  text-decoration: none;
+
+  /* Data Cards Playbook/Subtitle/2 */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 129% */
+  letter-spacing: 0.1px;
+
+  /* Data Cards Playbook / Tornado / 500 */
+  color: #152D2E;
+}
+
+.mdl-navigation .mdl-navigation__link {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  /* Data Cards Playbook / Tornado / 400 */
+  color: #3C4F50;
+}
+
+.mdl-navigation .mdl-navigation__link:hover {
+  /* Data Cards Playbook / Overall / Bright */
+  color: #1A73E8;
+}
+
+.mdl-navigation .mdl-navigation__link.is-active {
+  /* Data Cards Playbook / Overall / Bright */
+  color: #1A73E8;
+}
+
+.mdl-navigation .mdl-navigation__link.is-active:hover {
+  background: none;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  text-align: left;
+}
