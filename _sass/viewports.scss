@@ -1,0 +1,12 @@
+// TODO: remove the variables from variables.scss
+@mixin viewport-medium {
+  @media screen and (min-width: 550px) {
+    @content;
+  }
+}
+
+@mixin viewport-large {
+  @media screen and (min-width: 800px) {
+    @content;
+  }
+}

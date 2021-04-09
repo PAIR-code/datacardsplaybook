@@ -1,0 +1,12 @@
+- title: About
+  link: /about
+- title: Activities
+  link: /playbook
+- title: Resources
+  link: /resources
+- title: Planning
+  link: /planning
+- title: Get Involved
+  link: https://github.com/PAIR-code/datacardsplaybook
+  external: true
+  img: /assets/images/arrow_external.svg
