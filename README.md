@@ -28,3 +28,10 @@ Published March 5, 2021.
 ## License
 The Data Cards Playbook is licensed under a [Creative Commons Attribution-Share
 Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## Credits
+### Core Team
+Emily Brouillet, Reena Jana, Oddur Kjartansson, Dan Nanas, Mahima Pushkarna (co-lead), Danielle Smalls, Vivian Tsai, Andrew Zaldivar (co-lead)
+
+### Special Thanks
+Lucas Ackerknecht, Hartwig Adam, Seiji Armstrong, Lora Aroyo, Sebastian Assaf, Anurag Batra, Samy Bengio, Thomas Cadwalader, Michelle Carney, Will Carter, Amanda Casari, Di Dang, Alex David Norton, Tiffany Deng, Emily Denton, Tulsee Doshi, Patrick Gage Kelley, Timnit Gebru, Robbie Gonzalez, Alex Hanna, Jing Hua, Ben Hutchinson, Nathan Ie, Robyn Im, Orion Jankowski, Shivani Kapania, David Karam, Daniel Kim, Leslie Lai, Eryka Lehr, Elijah Logan, Daphne Luong, Nicole Maffeo, Meg Mitchell, Maysam Moussalem, Unni Nair, Ricardo Olenewa, Kristen Olson, Praveen Paritosh, Angie Peng, Ludovic Peran, Ravi Rajakumar, Susanna Ricco, Kevin Robinson, Taylor Roper, Mo Shomrat, Andrew Smart, Jamila Smith-Loud, Joseph Thomas, Bobby Tran, Aybuke Turker, Fernanda Viegas, James Wang, Martin Wattenberg, James Wexler, Catherine Williams, Catherina Xu, Tabitha Yong, Ben Zevenbergen
