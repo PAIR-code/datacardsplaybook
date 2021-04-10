@@ -21,7 +21,7 @@ body {
 p {
   font-size: 15px;
   line-height: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 span {
@@ -36,7 +36,7 @@ span {
 }
 
 p strong {
-  color: $overall-bright;
+  font-weight: 500;
 }
 
 blockquote p {
@@ -47,12 +47,15 @@ blockquote p {
 ul {
   font-size: 15px;
   line-height: 25px;
-  color: $overall-dark;
   margin-bottom: 25px;
 }
 
 li {
   margin-left: 30px;
+}
+
+li strong {
+  font-weight: 500;
 }
 
 a {
@@ -440,25 +443,23 @@ section {
 .summary {
   background: $overall-light;
   border-radius: 10px;
-  /* border-bottom: 2px $overall-bright solid; */
   margin-bottom: 20px;
 }
 
 .summary:first-of-type {
-  /* border-top: 2px $overall-bright solid; */
   margin-top: 20px;
 }
 
 .summary.overall {
-  border-color: $overall-bright;
+  background: $overall-light;
 }
 
 .summary.ask {
-  border-color: $ask-bright;
+  background: $ask-light;
 }
 
 .summary.inspect {
-  border-color: $inspect-bright;
+  background-color: $inspect-light;
 }
 
 .divider {
@@ -474,8 +475,6 @@ section {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  box-shadow: $header-shadow;
-  align-items: center;
   background: $concrete-100;
 
   img {
