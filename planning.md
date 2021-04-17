@@ -10,7 +10,7 @@ The Data Cards Playbook is designed to adapt to a variety of team structures and
 
 An ideal group includes the core team producing the dataset and Data Card, agents who will use the dataset and Data Card, and users who may have contributed data.
 
-{% include cards.html cards=site.data.planning section=true %}
+{% include cards.html cards=site.data.cards.planning section=true %}
 
 ## Assign roles for the Playbook
 To make the most efficient use of your shared time, keep a designated Facilitator, Note-Taker, and Troublemaker.

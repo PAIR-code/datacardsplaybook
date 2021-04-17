@@ -5,24 +5,17 @@ banner: "Learn about transparency, Data Cards, and the team behind the Playbook.
 ---
 
 <div class="grid">
-  <div class="block">
-    <h3>Transparency</h3>
-    <p>Transparency, at its heart, is a clear, easily understandable, and plain language explanation of what something is, what it does, and why it does that.</p>
-    <p>For dataset documentation, transparency means providing a window into the dataset's quality, validity, reproducibility, and risk—all in a way that's accessible to the various audiences who may interact with it, including developers, business stakeholders, downstream users, and more.</p>
-  </div>
+  {% include text-block.html
+     title="Transparency"
+     text=site.data.blocks.transparency %}
   <img src="{{ "/assets/images/illustration-transparency.png" | relative_url }}" aria-hidden="true" class="hide-mobile" />
-</div>
 
-<div class="grid">
   <img src="{{ "/assets/images/illustration-datacard.png" | relative_url }}" aria-hidden="true" class="hide-mobile" />
-  <div class="block">
-    <h3>Data Cards</h3>
-    <p>Data Cards are people-centric summaries of transparent dataset documentation.</p>
-    <p>They offer a structured way to document datasets and encourage informed decisions about the data used in AI systems for product and research. But there is no one-size-fits-all template. That's where the Data Cards Playbook comes in.</p>
-    <a class="call-to-action" href="https://github.com/PAIR-code/datacardsplaybook" rel="noopener noreferrer">
-      See Data Cards examples
-    </a>
-  </div>
+  {% include text-block.html
+     title="Data Cards"
+     text=site.data.blocks.data-cards
+     button="See Data Cards examples"
+     link="https://github.com/PAIR-code/datacardsplaybook" %}
 </div>
 
 ### Credits

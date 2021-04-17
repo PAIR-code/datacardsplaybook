@@ -10,4 +10,4 @@ link: "/playbook"
 interdisciplinary teams adopt a people-centered approach to **transparency
 in dataset documentation** for responsible AI systems.
 
-{% include cards.html cards=site.data.highlights %}
+{% include cards.html cards=site.data.cards.highlights %}

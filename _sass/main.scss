@@ -382,6 +382,7 @@ section {
   display: block;
   padding-bottom: $y-padding;
   column-gap: 20px;
+  grid-row-gap: 20px;
   grid-auto-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
 }

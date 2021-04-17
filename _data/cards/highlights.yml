@@ -1,7 +1,6 @@
 - title: The Data Cards Playbook
   img: /assets/images/illustration-ecosystem.png
   action: Activities
-  arrow: internal
   text: Explore activities for a consistent approach to asking, inspecting, and producing dataset documentation.
   link: /playbook
 
@@ -9,5 +8,4 @@
   img: /assets/images/illustration-craft.png 
   action: Workshop Page
   text: Details for participants of the ACM FAccT Critiquing Accountability, Fairness, and Transparency Workshop.
-  arrow: external
   link: https://facctconference.org/2021/acceptedcraftsessions.html#data_cards

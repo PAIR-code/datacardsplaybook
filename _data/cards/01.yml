@@ -1,0 +1,29 @@
+- title: Priority Matrix
+  text: Decide the target audience for your Data Card.
+  color: ask
+  action: Get started
+  link: /playbook/ask/priority-matrix
+
+- title: Align on Agents
+  text: Understand how your audience will interact with your Data Card.
+  color: ask
+  action: Get started
+  link: /playbook/ask/align-on-agents
+
+- title: Lens Brainstorm
+  text: Use Lens Cards to define key information journeys for your Data Card.
+  color: ask
+  action: Get started
+  link: /playbook/ask/lens-brainstorm
+
+- title: Scopes Brainstorm
+  text: Break down Lenses into prompts for your Data Card.
+  color: ask
+  action: Get started
+  link: /playbook/ask/scopes-brainstorm
+
+- title: Templatize
+  text: Organize Lenses and Scopes into a draft Data Card.
+  color: ask
+  action: Get started
+  link: /playbook/ask/templatize

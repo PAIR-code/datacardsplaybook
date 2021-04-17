@@ -1,0 +1,17 @@
+- title: Dimensions
+  text: Use dimensions to evaluate your Data Card draft and identify opportunities for improvement.
+  color: inspect
+  action: Get started
+  link: /playbook/inspect/dimensions
+
+- title: Fluency Calculator
+  text: Fine-tune your documentation to ensure audience readability.
+  color: inspect
+  action: Get started
+  link: /playbook/inspect/fluency-calculator
+
+- title: OFTEn Calculator
+  text: Check if your Data Card draft accurately represents your dataset.
+  color: inspect
+  action: Get started
+  link: /playbook/inspect/often-calculator
