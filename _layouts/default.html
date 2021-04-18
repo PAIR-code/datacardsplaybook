@@ -10,21 +10,21 @@
 
     <main>
       {% if page.banner %}
-        <div class="banner">
-          <div class="banner-text">
-            <h2>{{ page.banner }}</h2>
-            {% if page.action and page.link %}
-              <a class="call-to-action" href="{{ page.link | relative_url }}">
-                {{ page.action }}
-                <img class="arrow" aria-hidden="true" src="{{ "/assets/images/arrow_internal_white.svg" | relative_url }}" />
-              </a>
-            {% endif %}
-          </div>
+      <div class="banner">
+        <div class="banner-text">
+          <h2>{{ page.banner }}</h2>
+          {% if page.action and page.link %}
+          <a class="call-to-action" href="{{ page.link | relative_url }}">
+            {{ page.action }}
+            {% include arrow.html type=page.arrow %}
+          </a>
+          {% endif %}
         </div>
+      </div>
       {% endif %}
 
       <div class="main">
-        <div class="content">
+          <div class="content{% if page.color %} {{ page.color }}{% endif %}">
           {{ content }}
         </div>
       </div>

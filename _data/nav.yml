@@ -8,5 +8,4 @@
   link: /planning
 - title: Get Involved
   link: https://github.com/PAIR-code/datacardsplaybook
-  external: true
-  img: /assets/images/arrow_external.svg
+  arrow: external

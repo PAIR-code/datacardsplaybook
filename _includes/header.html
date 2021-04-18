@@ -20,8 +20,8 @@
             class="active"
           {% endif %}>
           {{ item.title }}
-          {% if item.img %}
-            <img src="{{ item.img | relative_url }} ">
+          {% if item.arrow %}
+            {% include arrow.html type=item.arrow %}
           {% endif %}
         </a>
       </li>

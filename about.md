@@ -15,6 +15,7 @@ banner: "Learn about transparency, Data Cards, and the team behind the Playbook.
      title="Data Cards"
      text=site.data.blocks.data-cards
      button="See Data Cards examples"
+     arrow="external"
      link="https://github.com/PAIR-code/datacardsplaybook" %}
 </div>
 

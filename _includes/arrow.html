@@ -1,0 +1,23 @@
+{% unless include.type %}
+<svg class="arrow" width="16" height="12" viewBox="0 0 16 14" aria-hidden="true">
+  <path d="M10 0L8.59 1.41L12.17 5H0V7H12.17L8.59 10.59L10 12L16 6L10 0Z" />
+</svg>
+{% endunless %}
+
+{% if include.type == "internal" %}
+<svg class="arrow" width="16" height="12" viewBox="0 0 16 14" aria-hidden="true">
+  <path d="M10 0L8.59 1.41L12.17 5H0V7H12.17L8.59 10.59L10 12L16 6L10 0Z" />
+</svg>
+{% endif %}
+
+{% if include.type == "external" %}
+<svg class="arrow" width="16" height="16" viewBox="4 4 20 20" aria-hidden="true">
+  <path d="m6.34338 6.34315v1.99404l7.89842.00707-8.60553 8.60544 1.41421 1.4143 8.60552-8.60553.007 7.89843h1.9941v-11.31375z" />
+</svg>
+{% endif %}
+
+{% if include.type == "download" %}
+<svg class="arrow" width="16" height="16" viewBox="0 0 20 20" aria-hidden="true">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9 8.17L11.59 5.59L13 7L8 12L3 7L4.41 5.59L7 8.17V0H9V8.17ZM0 16H16V14H0V16Z" />
+</svg>
+{% endif %}

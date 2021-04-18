@@ -45,26 +45,7 @@
     <div>
       <a href="{{ link | relative_url }}" class="activity{% if color %} {{ color}}{% endif %}">
         {{ action }}
-
-        {% if arrow == "internal" %}
-          <img class="arrow" aria-hidden="true" src="{{ "/assets/images/arrow_internal.svg" | relative_url }}" />
-        {% endif %}
-
-        {% if arrow == "external" %}
-          <img class="arrow" aria-hidden="true" src="{{ "/assets/images/arrow_external.svg" | relative_url }}" />
-        {% endif %}
-
-        {% if arrow == "download" %}
-          <img class="arrow" aria-hidden="true" src="{{ "/assets/images/arrow_download.svg" | relative_url }}" />
-        {% endif %}
-
-        {% if arrow == "ask" %}
-          <img class="arrow" aria-hidden="true" src="{{ "/assets/images/arrow_download_ask.svg" | relative_url }}" />
-        {% endif %}
-
-        {% if arrow == "inspect" %}
-          <img class="arrow" aria-hidden="true" src="{{ "/assets/images/arrow_download_inspect.svg" | relative_url }}" />
-        {% endif %}
+        {% include arrow.html type=arrow %}
       </a>
     </div>
   {% endif %}
