@@ -414,7 +414,7 @@ section {
   display: block;
   padding-bottom: $y-padding;
   column-gap: 20px;
-  grid-row-gap: 40px;
+  grid-row-gap: 20px;
   grid-auto-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -506,15 +506,16 @@ section {
 }
 
 footer {
+  margin-top: $y-padding;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
 
-  p {
-    font-size: 13px;
-    line-height: 20px;
-    margin-bottom: 10px;
-  }
+footer p, .footnote p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
 img.license {
