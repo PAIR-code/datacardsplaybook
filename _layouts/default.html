@@ -10,17 +10,8 @@
 
     <main>
       {% if page.banner %}
-      <div class="banner">
-        <div class="banner-text">
-          <h2>{{ page.banner }}</h2>
-          {% if page.action and page.link %}
-          <a class="call-to-action" href="{{ page.link | relative_url }}">
-            {{ page.action }}
-            {% include arrow.html type=page.arrow %}
-          </a>
-          {% endif %}
-        </div>
-      </div>
+        {% include banner.html banner=page.banner
+           action=page.action link=page.link arrow=page.arrow %}
       {% endif %}
 
       <div class="main">
