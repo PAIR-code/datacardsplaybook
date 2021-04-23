@@ -1,0 +1,9 @@
+<div class="breadcrumbs" aria-label="Breadcrumbs">
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
+{% for crumb in crumbs offset: 1 %}
+  {% if forloop.first %}
+    <a href="{{ crumb | relative_url }}">{{ crumb | remove: '.html' }}</a>
+  {% endif %}
+{% endfor %}
+</div>

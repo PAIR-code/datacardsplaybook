@@ -1,0 +1,45 @@
+<div class="playbook-nav" aria-label="Pagination">
+  {% assign next_module = 0 %}
+  {% for item in include.toc %}
+    {% assign next_module = next_module | plus: 1 %}
+    {% assign prev_color = item.color %}
+    {% if item.subpages[0] %}
+      {% for subitem in item.subpages %}
+         {% assign link = page.url | remove: '.html' %}
+         {% if link == subitem.link %}
+           {% assign current_index = forloop.index0 %}
+           <!-- Prev -->
+           {% if prev %}
+             <a class="prev{% if prev_color %} {{ prev_color }}{% endif %}" href="{{ prev.link | relative_url }}">
+              <span>Previous</span>
+              {{ prev.title }}
+             </a>
+           {% else %}
+             <a class="prev" href="{{ "/playbook" | relative_url }}">
+               <span>Previous</span>
+               Playbook Overview
+             </a>
+           {% endif %}
+           <!-- Next -->
+           {% if forloop.last %}
+             {% if include.toc[next_module] %}
+               {% assign next_color = include.toc[next_module].color %}
+               {% assign next = include.toc[next_module].subpages[0] %}
+               <a class="next{% if next_color %} {{ next_color }}{% endif %}" href="{{ next.link | relative_url }}">
+                 <span>Next</span>
+                 {{ next.title }}
+               </a>
+             {% endif %}
+           {% else %}
+             {% assign next = item.subpages[forloop.index] %}
+             <a class="next{% if item.color %} {{ item.color }}{% endif %}" href="{{ next.link | relative_url }}">
+               <span>Next</span>
+               {{ next.title }}
+             </a>
+           {% endif %}
+         {% endif %}
+         {% assign prev = subitem %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
