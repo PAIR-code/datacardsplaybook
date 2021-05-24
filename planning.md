@@ -42,16 +42,16 @@ Also known as 10th (hu)man, devil's advocate, or the challenger. There may be mo
 
 {% include divider.html %}
 
-## Pro tips
+## Pro-tips
 
-### Keep it general
+#### 🚥 Keep it general
 The Playbook is designed to capture the ideas and needs of entire cohors of people.
 
-### Leverage the group's knowledge
+#### 🍇 Leverage the group's knowledge
 Encourage all participants to lean into what they know about datasets, readers of documentation, and experts in the dataset's domain.
 
-### Think broad and narrow
+#### 🤯 Think broad and narrow
 Consider both extreme and mainstreme cases for a balanced and multi-faceted approach.
 
-### Consider levels of expertise
+#### 🔨 Consider levels of expertise
 Readers of Data Cards have varying domain expertise and fluency in working with data.
