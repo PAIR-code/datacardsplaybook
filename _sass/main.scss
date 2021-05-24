@@ -348,6 +348,7 @@ header {
 main {
   padding-top: $header-height;
   overflow-x: hidden;
+  min-height: $main-min-height;
 }
 
 .banner {
@@ -510,6 +511,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: $footer-min-height;
 }
 
 footer p, .footnote p {

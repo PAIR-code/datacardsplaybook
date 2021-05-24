@@ -38,10 +38,14 @@ $title-font: Rubik,Helvetica,Arial,sans-serif;
 
 $header-height: 60px;
 $header-shadow: 1px 2px 2px 0 rgba(0,0,0,.2);
+$footer-min-height: 100px;
 $y-padding: 40px;
 $x-padding: 20px;
 $body-width: 800px;
 $sidebar-width: 200px;
+
+/* Subtract header/footer heights from viewport height */
+$main-min-height: calc(100vh - 60px - 100px);
 
 $z-index-content: 0;
 $z-index-close-nav: 1;
