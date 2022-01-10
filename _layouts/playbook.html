@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% include head.html title=page.title %}
+  </head>
+  <body>
+    <header>
+      {% include header.html %}
+    </header>
+
+    <main>
+      {% if site.data.playbook.banner %}
+        {% include banner.html banner=site.data.playbook.banner
+           action=site.data.playbook.action link=site.data.playbook.link
+           arrow=site.data.playbook.arrow %}
+      {% endif %}
+
+      <div class="main">
+        {% include sidebar.html toc=site.data.playbook.contents %}
+        <div class="playbook" aria-label="Content">
+          <div class="content{% if page.color %} {{ page.color }}{% endif %}">
+            {% include breadcrumbs.html %}
+            {{ content }}
+          </div>
+          {% include pagination.html toc=site.data.playbook.contents %}
+          {% include footnote.html %}
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        {% include footer.html %}
+    </footer>
+  </body>
+</html>

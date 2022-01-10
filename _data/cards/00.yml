@@ -1,0 +1,17 @@
+- title: Activity Tracker
+  text: A handy Google Sheet to see and track your progress, distribute work, and view Calculator results.
+  arrow: external
+  action: Make a copy
+  link: /playbook/activity-tracker.xlsx
+
+- title: Activity Workbook
+  text: All activity instructions and worksheets in a single, printable format.
+  arrow: download
+  action: Get PDF
+  link: /playbook/activity-workbook.pdf
+
+- title: Activity Planner
+  text: Identify all the stakeholders you need to involve in your Playbook activities.
+  arrow: external
+  action: Make a copy
+  link: /playbook/activity-planner.xlsx

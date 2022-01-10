@@ -1,0 +1,5 @@
+<div class="grid{% if include.activity %} activity{% endif %}">
+  {% for item in include.cards %}
+    {% include card.html item=item %}
+  {% endfor %}
+</div>

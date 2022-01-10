@@ -1,0 +1,13 @@
+<div class="block">
+  <h3>{{ include.title }}</h3>
+  {% for paragraph in include.text %}
+  <p>{{ paragraph }}</p>
+  {% endfor %}
+
+  {% if include.button %}
+  <a class="call-to-action" href="{{ include.link | relative_url }}" rel="noopener noreferrer">
+    {{ include.button }}
+    {% include arrow.html type=include.arrow %}
+  </a>
+  {% endif %}
+</div>

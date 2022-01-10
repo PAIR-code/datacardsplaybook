@@ -1,0 +1,165 @@
+.playbook {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@include viewport-large {
+  .playbook {
+    max-width: $body-width - $sidebar-width - $x-padding;
+  }
+
+  .breadcrumbs {
+    display: none;
+  }
+}
+
+.breadcrumbs {
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  color: $tornado-300;
+  font-family: $title-font;
+  font-size: 14px;
+  margin-right: 5px;
+  line-height: 30px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: $tornado-300;
+  margin: 0px 5px 0px 5px;
+}
+
+.breadcrumbs a:first-of-type {
+  margin-left: 0px;
+}
+
+.breadcrumbs a:last-of-type {
+  margin-right: 0px;
+}
+
+.breadcrumbs a:hover, .breadcrumbs a:focus {
+  color: $tornado-400;
+  background: none;
+}
+
+.playbook-nav {
+  padding: $y-padding $x-padding 0px $x-padding;
+  margin-top: auto;
+  justify-content: space-between;
+
+  span {
+    color: $tornado-400;
+    line-height: 20px;
+  }
+
+  span.overall {
+    color: $overall-light;
+  }
+
+  span.ask {
+    color: $ask-light;
+  }
+
+  span.inspect {
+    color: $inspect-light;
+  }
+
+  a {
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: $title-font;
+    color: $tornado-500;
+    background: $tornado-100;
+    border: 2px $tornado-200 solid;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    min-width: 200px;
+  }
+
+  a:hover, a:focus {
+    background: $tornado-200;
+  }
+}
+
+@include viewport-medium {
+  .playbook-nav {
+    display: flex;
+  }
+
+  a.prev {
+    text-align: left;
+  }
+
+  a.next {
+    text-align: right;
+  }
+}
+
+.sidebar {
+  display: none;
+  min-width: $sidebar-width;
+  padding: 0px $x-padding $y-padding 0px;
+  margin: $y-padding 0px 0px $x-padding;
+  font: $body-font;
+  font-size: 15px;
+  border-right: 1px $tornado-300 dashed;
+
+  b {
+    font-weight: 500;
+  }
+
+  ul {
+    margin: 0px 0px 10px 30px;
+  }
+
+  li, li a {
+    list-style: none;
+    padding: 0px;
+    display: block;
+    color: $tornado-400;
+    text-decoration: none;
+    line-height: 30px;
+    border-radius: 5px 0 0 5px;
+    margin: 0;
+  }
+
+  span {
+    line-height: 30px;
+  }
+
+  .active {
+    color: $overall-bright;
+  }
+
+  .active.ask {
+    color: $ask-bright;
+  }
+
+  .active.inspect {
+    color: $inspect-bright;
+  }
+
+  li a:hover, li a:focus {
+    color: $overall-bright;
+    background: none;
+  }
+
+  li a:hover.ask, li a:focus.ask {
+    color: $ask-bright;
+  }
+
+  li a:hover.inspect, li a:focus.inspect {
+    color: $inspect-bright;
+  }
+}
+
+@include viewport-large {
+  .sidebar {
+    display: inline;
+  }
+}

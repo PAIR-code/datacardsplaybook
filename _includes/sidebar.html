@@ -1,0 +1,24 @@
+<div class="sidebar" aria-label="Sidebar">
+  {% for item in include.toc %}
+    <li>
+      <span>{{ item.title }}</span>
+    </li>
+    {% if item.subpages[0] %}
+      <ul>
+        {% for subitem in item.subpages %}
+          <li>
+            <a href="{{ subitem.link | relative_url }}"
+              {% assign link = page.url | remove: '.html' %}
+              {% if link == subitem.link %}
+                class="active {% if item.color %}{{ item.color }}{% endif %}"
+              {% else %}
+                {% if item.color %}class="{{ item.color }}"{% endif %}
+              {% endif %}>
+              {{ subitem.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+</div>

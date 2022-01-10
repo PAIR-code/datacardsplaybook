@@ -1,0 +1,11 @@
+<div class="banner">
+  <div class="banner-text">
+    <h2>{{ include.banner }}</h2>
+    {% if include.action and include.link %}
+    <a class="call-to-action" href="{{ include.link | relative_url }}">
+      {{ include.action }}
+      {% include arrow.html type=include.arrow %}
+    </a>
+    {% endif %}
+  </div>
+</div>

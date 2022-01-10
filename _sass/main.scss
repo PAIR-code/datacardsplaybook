@@ -1,0 +1,594 @@
+a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: $concrete-100;
+  color: $tornado-500;
+  font-family: $body-font;
+}
+
+p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+span {
+  text-transform: uppercase;
+  color: $tornado-300;
+  font-family: $title-font;
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+p strong {
+  font-weight: 500;
+}
+
+blockquote p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+ul {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+li {
+  margin-left: 30px;
+}
+
+li strong {
+  font-weight: 500;
+}
+
+a {
+  color: $overall-bright;
+}
+
+a:hover, a:focus {
+  color: $overall-dark;
+  background: $overall-light;
+}
+
+a.call-to-action {
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  line-height: 60px;
+  font-family: $title-font;
+  text-decoration: none;
+  background: $overall-bright;
+  box-shadow: $header-shadow;
+  color: $concrete-100;
+}
+
+a.call-to-action svg.arrow, a.call-to-action:hover svg.arrow, a.call-to-action:focus svg.arrow {
+  fill: $concrete-100;
+}
+
+a.call-to-action:hover, a.call-to-action:focus {
+  background: $overall-dark;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: $title-font;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: $overall-dark;
+  font-family: $title-font;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: $overall-bright;
+  font-family: $title-font;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: $overall-dark;
+  font-family: $title-font;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+svg.arrow {
+  margin-left: 2px;
+  vertical-align: middle;
+  fill: $overall-bright;
+}
+
+a.overall:hover, a.overall:focus {
+  color: $overall-dark;
+  background: $overall-light;
+}
+
+a:hover svg.arrow, a:focus svg.arrow, .content.overall a:hover svg.arrow, .content.overall a:focus svg.arrow {
+  fill: $overall-dark;
+}
+
+h2.overall, .content.overall h2, .content.overall h4 {
+  color: $overall-dark;
+}
+
+h3.overall, .content.overall h3, a.overall, .content.overall a {
+  color: $overall-bright;
+}
+
+a.ask:hover, a.ask:focus, .content.ask a:hover, .content.ask a:focus {
+  color: $ask-dark;
+  background: $ask-light;
+}
+
+a.ask svg.arrow, .content.ask a svg.arrow {
+  fill: $ask-bright;
+}
+
+a.ask:hover svg.arrow, a.ask:focus svg.arrow, .content.ask a:hover svg.arrow, .content.ask a:focus svg.arrow {
+  fill: $ask-dark;
+}
+
+h3.ask, .content.ask h3, a.ask, .content.ask a {
+  color: $ask-bright;
+}
+
+h2.ask, .content.ask h2, h4.ask, .content.ask h4 {
+  color: $ask-dark;
+}
+
+a.inspect:hover, a.inspect:focus, .content.inspect a:hover, .content.inspect a:focus {
+  color: $inspect-dark;
+  background: $inspect-light;
+}
+
+a.inspect svg.arrow, .content.inspect a svg.arrow {
+  fill: $inspect-bright;
+}
+
+a.inspect:hover svg.arrow, a.inspect:focus svg.arrow, .content.inspect a:hover svg.arrow, .content.inspect a:focus svg.arrow {
+  fill: $inspect-dark;
+}
+
+h3.inspect, .content.inspect h3, a.inspect, .content.inspect a {
+  color: $inspect-bright;
+}
+
+h2.inspect, .content.inspect h2, h4.inspect, .content.inspect h4 {
+  color: $inspect-dark;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  box-shadow: $header-shadow;
+  width: 100%;
+  background: $concrete-100;
+  font-family: $title-font;
+  font-size: 18px;
+  line-height: 20px;
+  z-index: $z-index-header;
+  height: $header-height;
+
+  .top-bar {
+    align-self: center;
+    width: 100%;
+    max-width: $body-width;
+  }
+
+  .title {
+    margin-top: $header-height / 3;
+    margin-bottom: $header-height / 3;
+    padding-left: $x-padding;
+    display: inline-block;
+  }
+
+  .title a:hover, .title a:focus {
+    background: none;
+  }
+
+  a {
+    color: $tornado-500;
+    text-decoration: none;
+  }
+}
+
+.nav {
+  display: none;
+  position: relative;
+  background: $concrete-100;
+  box-shadow: $header-shadow;
+  z-index: $z-index-nav;
+  padding-bottom: 20px;
+  visibility: collapse;
+}
+
+.nav ul {
+  margin: 0px;
+  color: $tornado-500;
+  padding-right: $x-padding;
+}
+
+.nav li {
+  list-style: none;
+  line-height: $header-height / 3;
+  padding: 10px 0px 10px 20px;
+  margin: 0px;
+  font-size: 14px;
+  font-family: $title-font;
+  text-transform: uppercase;
+}
+
+.nav li a {
+  color: $tornado-400;
+}
+
+.nav li a:hover, .nav li a:focus {
+  color: $overall-bright;
+  background: none;
+}
+
+.nav li a.active {
+  color: $overall-bright;
+  background: none;
+}
+
+.nav li a svg.arrow {
+  fill: $tornado-400;
+}
+
+.nav li a:hover svg.arrow, .nav li a:focus svg.arrow {
+  fill: $overall-bright;
+}
+
+.nav-icon {
+  cursor: pointer;
+  float: left;
+  user-select: none;
+  margin: $header-height / 3 0px $header-height / 3 0px;
+  padding-left: $x-padding;
+}
+
+@include viewport-large {
+  header, footer, .main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-icon {
+    display: none;
+  }
+
+  .nav {
+    box-shadow: none;
+    display: inline;
+    float: right;
+    visibility: visible;
+    padding: 0px;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin: $header-height / 3 0px $header-height / 3 20px;
+    padding: 0px;
+  }
+}
+
+#nav {
+    position: fixed;
+    right: 100%;
+    bottom: 100%;
+}
+
+#close-nav {
+  pointer-events: none;
+  position: fixed;
+  right: 100%;
+  bottom: 100%;
+  -webkit-appearance: none;
+  z-index: $z-index-close-nav;
+}
+
+@include viewport-medium {
+  #nav, #close-nav {
+    display: none;
+    pointer-events: none;
+  }
+}
+
+#nav:checked ~ #close-nav {
+  display: block;
+  pointer-events: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#nav:checked ~ .nav {
+  visibility: visible;
+  display: block;
+}
+
+#nav:checked ~ #nav-icon {
+  color: $tornado-300;
+}
+
+main {
+  padding-top: $header-height;
+  overflow-x: hidden;
+  min-height: $main-min-height;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: auto 350px;
+  background-repeat: repeat-x;
+  background-image: url(../images/banner.png);
+}
+
+.banner-text {
+  max-width: $body-width;
+  width: 100%;
+  margin: 0px;
+  align-items: left;
+  padding: $y-padding $x-padding $y-padding $x-padding;
+
+  h1, h2, h3, p {
+    color: $tornado-500;
+    margin-bottom: 0px;
+  }
+}
+
+.content {
+  width: 100%;
+  max-width: $body-width;
+  padding: $y-padding $x-padding 0px $x-padding;
+}
+
+section {
+  display: flex;
+}
+
+.block {
+  p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  p:first-of-type{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.credits {
+  margin-bottom: 20px;
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0px;
+  }
+
+  p small {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
+.grid {
+  display: block;
+  padding-bottom: $y-padding;
+  column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@include viewport-medium {
+  .grid {
+    display: grid;
+  }
+}
+
+@include viewport-large {
+  .grid.activity {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 10px;
+  }
+
+  p:last-of-type {
+    margin-bottom: auto;
+  }
+
+  a.activity {
+    text-decoration: none;
+    font-family: $title-font;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+.grid.activity .card {
+  border: 1px $tornado-300 dashed;
+  border-radius: 10px;
+}
+
+.summary {
+  background: $overall-light;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.summary:first-of-type {
+  margin-top: 20px;
+}
+
+.summary.overall, .content.ask .overall {
+  background: $overall-light;
+}
+
+.summary.ask, .content.ask .summary {
+  background: $ask-light;
+}
+
+.summary.inspect, .content.inspect .summary {
+  background-color: $inspect-light;
+}
+
+.divider {
+  width: 100%;
+  margin-bottom: $y-padding;
+  border-bottom: 1px $tornado-400 dashed;
+}
+
+.thumbnail {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px $tornado-300 dashed;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background: $concrete-100;
+
+  img {
+    height: auto;
+    max-width: 150px;
+    align-self: center;
+  }
+}
+
+footer {
+  margin-top: $y-padding;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: $footer-min-height;
+}
+
+footer p, .footnote p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+img.license {
+  height: 40px;
+  padding: 5px 10px 5px 0px;
+  margin: 0px;
+}
+
+img.hide-mobile {
+  display: none;
+}
+
+@include viewport-medium {
+  img.hide-mobile {
+    display: block;
+  }
+}
+
+.bottom-bar {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: $body-width;
+  padding: $y-padding $x-padding $y-padding $x-padding;
+
+  .bottom-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img {
+    height: 30px;
+    margin: 0px;
+  }
+
+  a {
+    color: $tornado-400;
+    text-decoration: none;
+  }
+
+  a:hover, a:focus {
+    background: none;
+  }
+
+  p a:hover, p a:focus {
+    color: $overall-dark;
+    background: none;
+  }
+}
+
+@include viewport-medium {
+  .bottom-bar {
+    display: flex;
+    flex: auto;
+  }
+
+  .bottom-links {
+    width: 300px;
+  }
+
+  .bottom-links:last-of-type {
+    padding-left: 50px;
+  }
+}
+
+@include viewport-large {
+  .bottom-links {
+    padding: 0px;
+  }
+}

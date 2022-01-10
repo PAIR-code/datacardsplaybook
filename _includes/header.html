@@ -1,0 +1,33 @@
+<div class="top-bar">
+  <div class="title">
+      <a href="{{ "/" | relative_url }}" aria-label="{{ site.title }}">{{ site.title }}</a>
+  </div>
+
+  <input type="radio" name="menu" id="nav" aria-label="Open Menu">
+  <label for="nav" class="nav-icon" id="nav-icon" aria-hidden="true">&#9776;</label>
+
+  <div class="nav">
+    <ul>
+      {% for item in site.data.nav %}
+      <li>
+        {% if item.external %}
+          <a href="{{ item.link }}" rel="noopener noreferrer"
+        {% else %}
+          <a href="{{ item.link | relative_url }}"
+        {% endif %}
+          {% assign url = (item.link | append: ".html") %}
+          {% if page.url == url %}
+            class="active"
+          {% endif %}>
+          {{ item.title }}
+          {% if item.arrow %}
+            {% include arrow.html type=item.arrow %}
+          {% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <input type="radio" name="menu" id="close-nav" checked aria-label="Close Menu">
+</div>

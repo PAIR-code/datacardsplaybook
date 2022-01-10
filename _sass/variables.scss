@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:300,300italic,400,400italic,500,500italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300italic,400,400italic,500,500italic,700,700italic');
+
+$concrete-100: #FFFFFF;
+$concrete-200: #C3CAD1;
+$concrete-300: #9AA0A6;
+$concrete-400: #3C4F50;
+$concrete-500: #090B0C;
+
+$tornado-100: #F1F7F7;
+$tornado-200: #CDDCDC;
+$tornado-300: #7C9192;
+$tornado-400: #3C4F50;
+$tornado-500: #152D2E;
+
+$overall-bright: #1A73E8;
+$overall-dark: #0748A2;
+$overall-light: #E8F0FE;
+
+$ask-bright: #F439A0;
+$ask-dark: #BD2074;
+$ask-light: #FFE9F5;
+
+$inspect-bright: #FF7B19;
+$inspect-dark: #DB591E;
+$inspect-light: #FFEDE0;
+
+$answer-bright: #19B2BA;
+$answer-dark: #027980;
+$answer-light: #D6FDFB;
+
+$audit-bright: #8FDC09;
+$audit-dark: #71A318;
+$audit-light: #EDFFCE;
+
+$body-font: Inter,Helvetica,Arial,sans-serif;
+$title-font: Rubik,Helvetica,Arial,sans-serif;
+
+$header-height: 60px;
+$header-shadow: 1px 2px 2px 0 rgba(0,0,0,.2);
+$footer-min-height: 100px;
+$y-padding: 40px;
+$x-padding: 20px;
+$body-width: 1000px;
+$sidebar-width: 200px;
+
+/* Subtract header/footer heights from viewport height */
+$main-min-height: calc(100vh - 60px - 100px);
+
+$z-index-content: 0;
+$z-index-close-nav: 1;
+$z-index-header: 2;
+$z-index-nav: 3;

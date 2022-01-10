@@ -1,0 +1,22 @@
+- title: Dimension Worksheet
+  text: Evaluate your Data Card to identify opportunities for improvements in your documentation. Follow up by capturing results in the Activity Tracker and leveraging the Fluency Calculator.
+  color: inspect
+  arrow: download
+  action: Get template
+  link: /playbook/inspect-dimensions.pdf
+
+- title: Fluency Calculator
+  text: Fine-tune your documentation to see if your documentation can be read by all your agents.
+  prereq: Complete Align on Agents and Dimensions Worksheets, update in the Activity Tracker.
+  color: inspect
+  arrow: download
+  action: Get instructions
+  link: /playbook/inspect-fluency-calculator.pdf
+
+- title: OFTEn Calculator
+  text: Check if your Data Card Template appropriately represents your dataset and contains enough material.
+  prereq: Update your fine-tuned Data Card questions in the Activity Tracker.
+  color: inspect
+  arrow: download
+  action: Get instructions
+  link: /playbook/inspect-often-calculator.pdf

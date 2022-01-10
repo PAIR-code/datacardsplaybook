@@ -1,0 +1,36 @@
+- title: Priority Matrix
+  text: Brainstorm and decide the target audience for your Data Card using a 2x2 matrix.
+  color: ask
+  arrow: download
+  action: Get template
+  link: /playbook/ask-priority-matrix.pdf
+
+- title: Align on Agents
+  text: Articulate characteristics of your audience, and how they might interact with your Data Card and dataset. Follow up by capturing results in the Activity Tracker and leveraging the Fluency Calculator.
+  color: ask
+  arrow: download
+  action: Get template
+  link: /playbook/ask-align-on-agents.pdf
+
+- title: Lens Brainstorm
+  text: Define and decide on the most important information journeys of your Data Card or documentation. Follow up with a Scopes Brainstorm.
+  color: ask
+  arrow: download
+  action: Get template
+  link: /playbook/ask-lens-brainstorm.pdf
+
+- title: Scopes Brainstorm
+  text: Break down your Lenses into prompts for your Data Card Template. Follow up with Templatize.
+  prereq: Complete Lens Brainstorm.
+  color: ask
+  arrow: download
+  action: Get template
+  link: /playbook/ask-scopes-brainstorm.pdf
+
+- title: Templatize
+  text: Organize Lenses and Scopes into a draft Data Card Template, ready for critical evaluation in reflective activities.
+  prereq: Complete Lens Brainstorm and Scopes Brainstorm for a targeted template.
+  color: ask
+  arrow: download
+  action: Get template
+  link: /playbook/ask-templatize.pdf

@@ -1,0 +1,52 @@
+{% if item %}
+  {% assign img = item.img %}
+  {% assign title = item.title %}
+  {% assign text = item.text %}
+  {% assign prereq = item.prereq %}
+  {% assign action = item.action %}
+  {% assign link = item.link %}
+  {% assign arrow = item.arrow %}
+  {% assign color = item.color %}
+  {% assign summary = item.summary %}
+{% else %}
+  {% assign img = include.img %}
+  {% assign title = include.title %}
+  {% assign text = include.text %}
+  {% assign prereq = include.prereq %}
+  {% assign action = include.action %}
+  {% assign link = include.link %}
+  {% assign arrow = include.arrow %}
+  {% assign color = include.color %}
+  {% assign summary = include.summary %}
+{% endif %}
+
+<div class="card{% if summary %} summary{% endif %}{% if color %} {{ color }}{% endif %}">
+  {% if img %}
+    <div class="thumbnail">
+      <img src="{{ img | relative_url }}" aria-hidden="true"/>
+    </div>
+  {% endif %}
+
+  {% if title %}
+    <h4 {% if color %}class="{{ color }}"{% endif %}>
+      {{ title }}
+    </h4>
+  {% endif %}
+
+  {% if text %}
+    <p>{{ text }}</p>
+  {% endif %}
+
+  {% if prereq %}
+    <p>Prerequisites: {{ prereq }}</p>
+  {% endif %}
+
+  {% if action and link %}
+    <div>
+      <a href="{{ link | relative_url }}" class="activity{% if color %} {{ color}}{% endif %}">
+        {{ action }}
+        {% include arrow.html type=arrow %}
+      </a>
+    </div>
+  {% endif %}
+</div>

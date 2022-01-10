@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% include head.html title=page.title %}
+  </head>
+  <body>
+    <header>
+      {% include header.html %}
+    </header>
+
+    <main>
+      {% if page.banner %}
+        {% include banner.html banner=page.banner
+           action=page.action link=page.link arrow=page.arrow %}
+      {% endif %}
+
+      <div class="main">
+          <div class="content{% if page.color %} {{ page.color }}{% endif %}">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        {% if page.footnote %}{% include footnote.html %}{% endif %}
+        {% include footer.html %}
+    </footer>
+  </body>
+</html>

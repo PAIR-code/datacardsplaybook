@@ -1,0 +1,23 @@
+- title: Vignette
+  text: A fictitious scenario designed to prompt reflection and discussion about issues at the intersection of datasets, AI, documentation and transparency as you go through the Playbook.
+  arrow: internal
+  action: Read now
+  link: /resources/vignette-caretelligent.pdf
+
+- title: Taxonomy of Stakeholders
+  text: Explore our taxonomy of stakeholders, their tasks, and the decisions they make.
+  arrow: internal
+  action: Read now
+  link: /resources/taxonomy-stakeholders.pdf
+
+- title: Agent Information Journeys
+  text: Capture the unique information needs of different audiences of your Data Card or documentation as information journeys.
+  arrow: internal
+  action: Read now
+  link: /resources/framework-aij.pdf
+
+- title: Optics
+  text: Learn about different granularities of framing questions. Balance focal lengths for a clear picture of your dataset.
+  arrow: internal
+  action: Read now
+  link: /resources/optics.pdf
