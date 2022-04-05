@@ -1,7 +1,7 @@
 This directory is for those participating in [GSOC 2022](https://summerofcode.withgoogle.com/programs/2022/organizations/responsible-ai-and-human-centred-technology).
 
 ## Starter Tasks
-If you have created Data & Model Cards for datasets/models as a part of a starter task, please upload your Data / Model Card in the "Starter Task" subdirectory. In your commit, please include a short description of your experience in the "optional extended description". You may link to these in your proposals.
+If you have created Data & Model Cards for datasets/models as a part of a starter task, please upload your Data / Model Card in the [Starter Task](https://github.com/PAIR-code/datacardsplaybook/tree/main/benchmarkdetectives/starter%20task) subdirectory. In your commit, please include a short description of your experience in the "optional extended description". You may link to these in your proposals.
 
 ## Proposals
 
