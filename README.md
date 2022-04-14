@@ -2,10 +2,25 @@
 
 The Data Cards Playbook helps dataset producers and publishers adopt a
 people-centered approach to transparency in dataset documentation.
+Using the Playbook activities and resources on [our website](https://pair-code.github.io/datacardsplaybook), 
+you can create transparency-focused metadata schema for datasets 
+across domains, organizational structures, and audience groups
 
-- Discover Playbook activities and resources on [our website](https://pair-code.github.io/datacardsplaybook)
+
+In this repository, you can:
+- Explore templates of Transparency Artifacts (Data Cards, Model Cards, Healthsheets)
 - See and contribute examples of Data Cards in this repository
-- Read our paper on [Data Cards](https://arxiv.org/abs/2204.01075)
+
+
+## Data Cards
+Data Cards are structured summaries of essential facts about various aspects of 
+ML datasets needed by stakeholders across a dataset's lifecycle for responsible 
+AI development. These summaries provide explanations of processes and rationales 
+that shape the data and consequently the models, such as upstream sources, 
+data collection and annotation methods; training and evaluation methods, intended use; 
+or decisions affecting model performance.
+
+> Read our paper on [Data Cards](https://arxiv.org/abs/2204.01075)
 
 ## Examples of Data Cards
 - [Open Images Extended - Crowdsourced](https://research.google/tools/datasets/open-images-extended-crowdsourced/)
