@@ -5,6 +5,7 @@ people-centered approach to transparency in dataset documentation.
 
 - Discover Playbook activities and resources on [our website](https://pair-code.github.io/datacardsplaybook)
 - See and contribute examples of Data Cards in this repository
+- Read our paper on [Data Cards](https://arxiv.org/abs/2204.01075)
 
 ## Examples of Data Cards
 - [Open Images Extended - Crowdsourced](https://research.google/tools/datasets/open-images-extended-crowdsourced/)
