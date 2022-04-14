@@ -9,6 +9,7 @@ people-centered approach to transparency in dataset documentation.
 
 ## Examples of Data Cards
 - [Open Images Extended - Crowdsourced](https://research.google/tools/datasets/open-images-extended-crowdsourced/)
+- [Relative Movie Attributes](https://github.com/google-research-datasets/soft-attributes/blob/main/Data-Description.pdf)
 - Crowdsourced high-quality multi-speaker speech datasets
     - [Argentinian Spanish](https://research.google/tools/datasets/argentinian-spanish-tts/)
     - [Chilean Spanish](https://research.google/tools/datasets/chilean-spanish-tts/)
