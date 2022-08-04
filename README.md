@@ -21,6 +21,7 @@ data collection and annotation methods; training and evaluation methods, intende
 or decisions affecting model performance.
 
 > Read our paper on [Data Cards](https://arxiv.org/abs/2204.01075)
+> 
 > Watch the paper [video from FAccT 2022](https://www.youtube.com/watch?v=jcQ4A2EbFW8)
 
 ## Examples of Data Cards
