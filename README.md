@@ -23,8 +23,13 @@ or decisions affecting model performance.
 > Read our paper on [Data Cards](https://arxiv.org/abs/2204.01075)
 
 ## Examples of Data Cards
+
+- [GEM Benchmark Data Cards](https://gem-benchmark.com/data_cards)
+- [FIT400m Data Card](https://github.com/google-research/parti/blob/main/data_cards/fit400m_data_card.pdf)
 - [Open Images Extended - Crowdsourced](https://research.google/tools/datasets/open-images-extended-crowdsourced/)
 - [Relative Movie Attributes](https://github.com/google-research-datasets/soft-attributes/blob/main/Data-Description.pdf)
+- [More Inclusive Annotated People](https://storage.googleapis.com/openimages/open_images_extended_miap/Open%20Images%20Extended%20-%20MIAP%20-%20Data%20Card.pdf)
+- [Translated Wikipedia Biographies](https://research.google/tools/datasets/translated-wikipedia-biographies/#:~:text=The%20Translated%20Wikipedia%20Biographies%20dataset,drop%2C%20possessives%20and%20gender%20agreement.)
 - Crowdsourced high-quality multi-speaker speech datasets
     - [Argentinian Spanish](https://research.google/tools/datasets/argentinian-spanish-tts/)
     - [Chilean Spanish](https://research.google/tools/datasets/chilean-spanish-tts/)
