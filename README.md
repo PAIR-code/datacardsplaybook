@@ -40,6 +40,9 @@ or decisions affecting model performance.
     - [Venezulean Spanish](https://research.google/tools/datasets/venezuelan-spanish-tts/)
 - [Ivy Lee's collection of ML model cards and datasheets](https://github.com/ivylee/model-cards-and-datasheets)
 
+## Frequently Asked Questions (FAQs)
+Coming Soon
+
 ## Note
 The Data Cards Playbook is being actively developed and documentation is likely
 to change as we improve our methodologies. We want to hear from you!
