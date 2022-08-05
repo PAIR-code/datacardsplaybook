@@ -28,6 +28,7 @@ or decisions affecting model performance.
 
 - [GEM Benchmark Data Cards](https://gem-benchmark.com/data_cards)
 - [FIT400m Data Card](https://github.com/google-research/parti/blob/main/data_cards/fit400m_data_card.pdf)
+- [WikiDialog-OQ](https://github.com/google-research/dialog-inpainting/blob/main/WikiDialog-OQ_Data_Card.pdf)
 - [Open Images Extended - Crowdsourced](https://research.google/tools/datasets/open-images-extended-crowdsourced/)
 - [Relative Movie Attributes](https://github.com/google-research-datasets/soft-attributes/blob/main/Data-Description.pdf)
 - [More Inclusive Annotated People](https://storage.googleapis.com/openimages/open_images_extended_miap/Open%20Images%20Extended%20-%20MIAP%20-%20Data%20Card.pdf)
@@ -39,6 +40,8 @@ or decisions affecting model performance.
     - [Peruvian Spanish](https://research.google/tools/datasets/peruvian-spanish-tts/)
     - [Venezulean Spanish](https://research.google/tools/datasets/venezuelan-spanish-tts/)
 - [Ivy Lee's collection of ML model cards and datasheets](https://github.com/ivylee/model-cards-and-datasheets)
+
+Want to add your Data Card to this list? Open an issue!
 
 ## Frequently Asked Questions (FAQs)
 Coming Soon
