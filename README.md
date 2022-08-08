@@ -24,6 +24,12 @@ or decisions affecting model performance.
 > 
 > Watch the paper [video from FAccT 2022](https://www.youtube.com/watch?v=jcQ4A2EbFW8)
 
+## Hands-on Data Card creation
+Our Data Card template is available in [.docx format](https://github.com/PAIR-code/datacardsplaybook/blob/main/templates/DataCardsExtendedTemplate.docx). It contains numerous sections, questions and guidelines for responses that are designed to comprehensively document any possible dataset. 
+
+Along with Data Cards, we've also made [Healthsheets](https://github.com/PAIR-code/datacardsplaybook/blob/main/templates/Healthsheet%20Template.docx)([Research Paper](https://arxiv.org/abs/2202.13028)) and [Model Card](https://github.com/PAIR-code/datacardsplaybook/blob/main/templates/Model%20Card%20%E2%80%93%20Template.docx) ([Research Paper](https://arxiv.org/abs/1810.03993)) templates available to document healthcare-specific datasets and general purpose models, respectively. 
+
+
 ## Examples of Data Cards
 
 - [GEM Benchmark Data Cards](https://gem-benchmark.com/data_cards)
