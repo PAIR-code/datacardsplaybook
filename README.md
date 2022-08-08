@@ -41,7 +41,7 @@ or decisions affecting model performance.
     - [Venezulean Spanish](https://research.google/tools/datasets/venezuelan-spanish-tts/)
 - [Ivy Lee's collection of ML model cards and datasheets](https://github.com/ivylee/model-cards-and-datasheets)
 
-Want to add your Data Card to this list? Open an issue!
+Want to add your Data Card to this list? [Open an issue!](https://github.com/PAIR-code/datacardsplaybook/issues/new)
 
 ## Frequently Asked Questions (FAQs)
 Coming Soon
