@@ -1,0 +1,26 @@
+{
+  "name": "card-builder",
+  "version": "1.0.0",
+  "description": "Card Builder",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist && node build.config.js && sass --style=compressed --no-source-map src/styles/default.scss dist/card-default.css"
+  },
+  "keywords": [
+    "Card Builder",
+    "Data Cards Labs",
+    "Data Cards Playbook",
+    "dataset documentation"
+  ],
+  "author": "Vivian Tsai <vivtsai@google.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.11",
+    "micromark": "^3.1.0",
+    "micromark-extension-gfm": "^2.0.1"
+  }
+}
