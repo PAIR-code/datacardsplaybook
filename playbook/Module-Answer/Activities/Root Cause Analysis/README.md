@@ -1,3 +1,3 @@
 # Root Cause Analysis
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/root-cause-analysis)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/root-cause-analysis)

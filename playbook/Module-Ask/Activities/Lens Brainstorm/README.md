@@ -1,3 +1,3 @@
 # Lens Brainstorm
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/lens-brainstorm)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/lens-brainstorm)

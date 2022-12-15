@@ -1,3 +1,3 @@
 # Align on Agents
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/align-on-agents)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/align-on-agents)

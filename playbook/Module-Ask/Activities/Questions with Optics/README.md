@@ -1,3 +1,3 @@
 # Questions with Optics
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/questions-optics)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/questions-optics)

@@ -1,3 +1,3 @@
 # Lenses Voting
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/lenses-voting)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/lenses-voting)

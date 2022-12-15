@@ -1,3 +1,3 @@
 # Value Additions
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/value-additions)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/value-additions)

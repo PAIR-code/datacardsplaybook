@@ -1,3 +1,3 @@
 # Scopes Brainstorm
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/scopes-brainstorm)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/scopes-brainstorm)

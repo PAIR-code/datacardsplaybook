@@ -1,3 +1,3 @@
 # Three Buckets
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/three-buckets)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/three-buckets)

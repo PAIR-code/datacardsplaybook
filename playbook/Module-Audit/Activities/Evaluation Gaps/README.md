@@ -1,3 +1,3 @@
 # Evaluation Gaps
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/evaluation-gaps)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/evaluation-gaps)

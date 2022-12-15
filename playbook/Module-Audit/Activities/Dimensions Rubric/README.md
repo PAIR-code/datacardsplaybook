@@ -1,3 +1,3 @@
 # Dimensions Rubric
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/dimensions-rubric)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/dimensions-rubric)

@@ -1,3 +1,3 @@
 # Agent Information Journeys
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/agent-information-journeys)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/agent-information-journeys)

@@ -2,7 +2,7 @@
 
 The Data Cards Playbook helps dataset producers and publishers adopt a
 people-centered approach to transparency in dataset documentation.
-Using the Playbook activities and resources on [our website](https://pair-code.github.io/datacardsplaybook), 
+Using the Playbook activities and resources on [our website](https://sites.research.google/datacardsplaybook), 
 you can create transparency-focused metadata schema for datasets 
 across domains, organizational structures, and audience groups
 

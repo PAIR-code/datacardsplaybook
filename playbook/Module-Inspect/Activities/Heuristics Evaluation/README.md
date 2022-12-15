@@ -1,3 +1,3 @@
 # Heuristics Evaluation
 
-[View Activity](https://pair-code.github.io/datacardsplaybook/activities/heuristics-evaluation)
+[View Activity](https://sites.research.google/datacardsplaybook/activities/heuristics-evaluation)
