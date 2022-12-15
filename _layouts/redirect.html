@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--
+  Copyright 2022 Google LLC. All Rights Reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+  <head>
+    <meta http-equiv="refresh" content="0;url={{ site.url }}{{ site.baseurl }}{% if page.url != '/404.html' %}{{ page.url | remove: '.html' }}{% endif %}"/>
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}"/>
+    <meta name="keywords" content="{{ site.keywords }}"/>
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/meta-twitter.png"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}"/>
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/meta-og.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="600"/>
+    <meta property="og:title" content="{{ site.title }}"/>
+    <meta property="og:description" content="{{ site.description }}"/>
+
+    <link rel="shortcut icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/images/favicon.png"/>
+  </head>
+</html>
