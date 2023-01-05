@@ -14,7 +14,7 @@ First, format your content in Markdown as follows:
 - `h3`: Title of subsection within section
 - `h4`: Title of field within section
 
-[View example Markdown content](./examples/input.md)
+[View example Markdown content](../../templates/DataCardsExtendedTemplate.md)
 
 ### Parsing
 The tool will use these headings to reorganize content into
