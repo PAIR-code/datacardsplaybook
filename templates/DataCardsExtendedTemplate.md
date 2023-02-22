@@ -550,7 +550,7 @@ out for, or other relevant information or considerations. -->
 <!-- info: Select **one**: -->
 - Internal - Unrestricted
 - Internal - Restricted
-- External - Open Acess
+- External - Open Access
 - Others (please specify)
 
 #### Documentation Link(s)
