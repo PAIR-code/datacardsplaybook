@@ -1,0 +1,49 @@
+# Includes Accordion data to display from Agent 1-5.
+# TODO: Fix add, close, open, add metadata and data that will link to data visualization, may need to shorten name to acc instead of accordion
+
+- id: 1
+  title: Agent 1
+  text: 
+  dropdown: up
+  add: Add agent
+  close: Close accordion
+  open: Open accordion
+  action: Drag and drop ranking to change order
+
+
+- id: 2
+  title: Agent 2
+  text: 
+  dropdown: up
+  add: Add agent
+  close: Close accordion
+  open: Open accordion
+  action: Drag and drop ranking to change order
+
+- id: 3
+  title: Agent 3
+  text: 
+  dropdown: up
+  add: Add agent
+  close: Close accordion
+  open: Open accordion
+  action: Drag and drop ranking to change order
+
+- id: 4
+  title: Agent 4
+  text: 
+  dropdown: up
+  add: Add agent
+  close: Close accordion
+  open: Open accordion
+  action: Drag and drop ranking to change order
+
+
+- id: 5
+  title: Agent 5
+  text: 
+  dropdown: up
+  add: Add agent
+  close: Close accordion
+  open: Open accordion
+  action: Drag and drop ranking to change order

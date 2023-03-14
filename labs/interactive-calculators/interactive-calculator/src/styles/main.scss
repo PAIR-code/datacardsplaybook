@@ -1,0 +1,538 @@
+/*! Copyright 2022 Google LLC. All Rights Reserved. Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0) */
+
+/* 
+*
+* Variables
+*/
+
+/* Imperative variables */
+
+$role: "role";
+$datafluency: "data-fluency";
+$domainexpertise: "domain-expertise";
+$additionalinfo: "additional-info";
+
+$accordion: "accordion";
+$section: "content-section";
+$subsection: "content-subsection";
+$field: "content-field";
+
+$popover: "popover";
+
+$radio: "radio-binding";
+
+/* Bases */
+
+$concrete-100: #FFF;
+$concrete-200: #C3CAD1;
+$concrete-300: #9AA0A6;
+$concrete-400: #3C4F50;
+$concrete-500: #090B0C;
+
+$tornado-100: #F1F7F7;
+$tornado-200: #CDDCDC;
+$tornado-300: #7C9192;
+$tornado-400: #3C4F50;
+$tornado-500: #152D2E;
+
+/* Overall activity */
+
+$overall-bright: #1A73E8;
+$overall-dark: #0748A2;
+$overall-light: #E8F0FE;
+
+/* Ask activity */
+
+$ask-bright: #F439A0;
+$ask-dark: #BD2074;
+$ask-light: #FFE9F5;
+
+/* Inspect activity */
+
+$inspect-bright: #FF7B19;
+$inspect-dark: #DB591E;
+$inspect-light: #FFEDE0;
+
+/* Viewports */
+
+/* Viewports */
+@mixin viewport-medium {
+  @media screen and (min-width: 550px) {
+    @content;
+  }
+}
+
+@mixin viewport-large {
+  @media screen and (min-width: 800px) {
+    @content;
+  }
+}
+
+/* Imported fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto+Mono:wght@300;400;500&display=swap');
+
+/* Fonts */
+
+$font-body: Inter, Helvetica, Arial, sans-serif;
+
+/* Size */
+
+$header-height: 3.75rem;
+$header-shadow: 0.0625rem 0.125rem 0.125rem 0 rgba(0,0,0,.2);
+$footer-min-height: 6.25rem;
+$popover-shadow: 0.0625rem 0.125rem 0.125rem 0 rgba(0,0,0,.2);
+
+/*Margin creates extra space around an element.*/
+
+$y-padding: 2.5rem;
+$x-padding: 1.25rem;
+$body-width: 62.5rem;
+$sidebar-width: 12.5rem;
+
+/* Subtract header/footer heights from viewport height */
+
+$main-min-height: calc(100vh - 3.75rem - 6.25rem);
+
+$z-index-content: 0;
+$z-index-close-nav: 1;
+$z-index-header: 2;
+$z-index-nav: 3;
+
+/* 
+*
+* General layout 
+*/
+
+.layout {
+  display: grid;
+  grid:
+    "sidebar content data_viz" 1fr
+    / auto 1fr 30%;
+  gap: 8px;
+  grid-auto-flow: column;
+}
+
+.sidebar { 
+  grid-area: sidebar; 
+}
+
+.content { 
+  grid-area: content; 
+}
+
+.data_viz { 
+  grid-area: data_viz; 
+}
+
+/* 
+*
+* Roles reset
+*/
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+  }
+  
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: $concrete-100;
+    color: $tornado-500;
+    font-family: $body-font;
+  }
+
+  p {
+    text-transform: none;
+    margin: 0 0 10px 0;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid $tornado-500;
+  }
+
+  em,
+  i {
+    font-style: italic;
+  }
+
+  strong,
+  b {
+    font-weight: 500;
+  }
+
+  ol,
+  ul {
+    padding: 0;
+    margin: 0 0 10px 20px;
+  }
+  
+  span {
+    text-transform: uppercase;
+    color: $tornado-300;
+    font-family: $title-font;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    display: block;
+    margin: 0rem;
+    padding: 0rem;
+  }
+  
+  p strong {
+    font-weight: 500;
+  }
+  
+  blockquote p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  
+  a:hover, a:focus {
+    color: $overall-dark;
+    background: $overall-light;
+    opacity: 0.3; 
+  }
+  
+  a.call-to-action {
+    border-radius: 0.625rem;
+    font-size: 0.875rem;
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+    line-height: 3.75rem;
+    font-family: $title-font;
+    text-decoration: none;
+    background: $overall-bright;
+    box-shadow: $header-shadow;
+    color: $concrete-100;
+  }
+  
+  a.call-to-action svg.arrow, a.call-to-action:hover svg.arrow, a.call-to-action:focus svg.arrow {
+    fill: $concrete-100;
+  }
+  
+  a.call-to-action:hover, a.call-to-action:focus {
+    background: $overall-dark;
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-family: $title-font;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  h2 {
+    color: $overall-dark;
+    font-family: $title-font;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  h3 {
+    color: $overall-bright;
+    font-family: $title-font;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 0.625rem;
+  }
+  
+  h4 {
+    color: $overall-dark;
+    font-family: $title-font;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 0.3125rem;
+  }
+  
+  svg.arrow {
+    margin-left: 0.125rem;
+    vertical-align: middle;
+    fill: $overall-bright;
+  }
+  
+  a.overall:hover, a.overall:focus {
+    color: $overall-dark;
+    background: $overall-light;
+  }
+  
+  a:hover svg.arrow, a:focus svg.arrow, .content.overall a:hover svg.arrow, .content.overall a:focus svg.arrow {
+    fill: $overall-dark;
+  }
+  
+  h2.overall, .content.overall h2, .content.overall h4 {
+    color: $overall-dark;
+  }
+  
+  h3.overall, .content.overall h3, a.overall, .content.overall a {
+    color: $overall-bright;
+  }
+  
+  a.ask:hover, a.ask:focus, .content.ask a:hover, .content.ask a:focus {
+    color: $ask-dark;
+    background: $ask-light;
+  }
+  
+  a.ask svg.arrow, .content.ask a svg.arrow {
+    fill: $ask-bright;
+  }
+  
+  a.ask:hover svg.arrow, a.ask:focus svg.arrow, .content.ask a:hover svg.arrow, .content.ask a:focus svg.arrow {
+    fill: $ask-dark;
+  }
+  
+  h3.ask, .content.ask h3, a.ask, .content.ask a {
+    color: $ask-bright;
+  }
+  
+  h2.ask, .content.ask h2, h4.ask, .content.ask h4 {
+    color: $ask-dark;
+  }
+  
+  a.inspect:hover, a.inspect:focus, .content.inspect a:hover, .content.inspect a:focus {
+    color: $inspect-dark;
+    background: $inspect-light;
+  }
+  
+  a.inspect svg.arrow, .content.inspect a svg.arrow {
+    fill: $inspect-bright;
+  }
+  
+  a.inspect:hover svg.arrow, a.inspect:focus svg.arrow, .content.inspect a:hover svg.arrow, .content.inspect a:focus svg.arrow {
+    fill: $inspect-dark;
+  }
+  
+  h3.inspect, .content.inspect h3, a.inspect, .content.inspect a {
+    color: $inspect-bright;
+  }
+  
+  h2.inspect, .content.inspect h2, h4.inspect, .content.inspect h4 {
+    color: $inspect-dark;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  header {
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    box-shadow: $header-shadow;
+    width: 100%;
+    background: $concrete-100;
+    font-family: $title-font;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    z-index: $z-index-header;
+    height: $header-height;
+  
+    .top-bar {
+      align-self: center;
+      width: 100%;
+      max-width: $body-width;
+    }
+  
+    .title {
+      margin-top: $header-height / 3;
+      margin-bottom: $header-height / 3;
+      padding-left: $x-padding;
+      display: inline-block;
+    }
+  
+    .title a:hover, .title a:focus {
+      background: none;
+    }
+  
+    a {
+      color: $tornado-500;
+      text-decoration: none;
+    }
+  }
+  
+/* 
+*
+* Components
+*/
+
+/* Accordion Default */
+
+.#{$accordion} {
+  border: 1px solid $tornado-200;
+  background: $tornado-100;
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  padding: 10px;
+  box-shadow: $box-shadow;
+  overflow: hidden;
+    font: {
+      family: $font-body;
+      size: 14px;
+      line-height: 20px;
+    }
+    color: $tornado-500;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+/* Popover */
+
+.#{$popover} {
+  border: 0.5rem $tornado-500 solid;
+  box-shadow: $tooltip-shadow; 
+  background: $concrete-100;
+  padding: 0.5%;
+  position: absolute; 
+}
+
+.#{$popover}.ask {
+  position: absolute;
+  padding-left: $x-padding;
+  padding-right: $x-padding;
+  background: $ask-light;
+  filter: brightness(50%); 
+  color: $ask-dark;
+}
+
+.#{$popover}.inspect {
+  position: absolute;
+  padding-left: $x-padding;
+  padding-right: $x-padding;
+  background: $inspect-light;
+  filter: brightness(50%); 
+  color: $inspect-dark;
+}
+
+.#{$popover}:hover {
+  cursor: pointer;
+  top: {y}rem; 
+  left: {x}rem;   
+}
+  
+.divider {
+  width: 100%;
+  margin-bottom: $y-padding;
+  border-bottom: 0.0625rem $tornado-400 dashed;
+}
+
+.thumbnail {
+  padding: 0.625rem;
+  margin-bottom: 1.25rem;
+  border: 0.0625rem $tornado-300 dashed;
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  background: $concrete-100;
+
+  img {
+    height: auto;
+    max-width: 9.375rem;
+    align-self: center;
+  }
+}
+    
+img.license {
+  height: 2.5rem;
+  padding: 0.3125rem 0.625rem 0.3125rem 0rem;
+  margin: 0rem;
+}
+
+img.hide-mobile {
+  display: none;
+}
+
+@include viewport-medium {
+  img.hide-mobile {
+    display: block;
+  }
+}
+  
+ 
