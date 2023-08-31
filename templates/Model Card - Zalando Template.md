@@ -2,6 +2,8 @@
 derived for usage at Zalando based on existing
 [Huggingface](https://huggingface.co/docs/hub/model-cards) and
 [Google](https://modelcards.withgoogle.com/about) templates.
+
+Contributors: Alex Loosley, Rocco Maresca, Pak-Hang Wong, Håkan Jonsson
 -->
 
 <h1>Model Name (Acronym)</h1>

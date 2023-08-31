@@ -2,6 +2,8 @@
 derived for usage at Zalando based on existing
 [Huggingface](https://huggingface.co/docs/hub/datasets-cards) and
 [Google](https://sites.research.google/datacardsplaybook/) templates.
+
+Contributors: Alex Loosley, Rocco Maresca, Pak-Hang Wong, Håkan Jonsson
 -->
 
 <h1>Dataset Name (Acronym)</h1>
