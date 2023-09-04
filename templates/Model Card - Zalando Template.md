@@ -202,7 +202,7 @@ Additionaly plans or ideas for future work could be discussed (e.g. incorporate 
 |-------------------------------------|---------------------------|
 | Total training time                 | 118 days, 5 hours, 41 min |
 | Total number of GPU hours           | 1,082,990 hours           |
-| Total energy used                   | 433,196 kW                |
+| Total energy used                   | 433,196 kWh               |
 | GPU models used                     | Nvidia A100 80GB          |
 | Carbon intensity of the energy grid | 57 gCO2eq/kWh             |
 
